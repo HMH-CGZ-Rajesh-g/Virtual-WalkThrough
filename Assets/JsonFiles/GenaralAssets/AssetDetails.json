@@ -1,0 +1,46 @@
+{
+    "Asset": [
+        {
+            "name": "m_staging_room",
+            "direction": "front",
+            "length": 12
+        },
+        {
+            "name": "m_odc_small_v01",
+            "direction": "middle",
+            "length": 18
+        },
+        {
+            "name": "m_meeting_room1",
+            "direction": "right",
+            "length": 6
+        },
+
+        {
+            "name": "m_meeting_room2",
+            "direction": "left",
+            "length": 12
+        },
+        {
+            "name": "m_meeting_room3",
+            "direction": "right",
+            "length": 6
+        },
+        {
+            "name": "m_manager_room",
+            "direction": "right",
+            "length": 6
+        },
+        {
+            "name": "m_cafe",
+            "direction": "right",
+            "length": 6
+        },
+        {
+            "name": "m_trophy_room",
+            "direction": "right",
+            "length": 6
+        }
+
+    ]
+}

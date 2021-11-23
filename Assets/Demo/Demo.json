@@ -1,0 +1,16 @@
+{
+    "objecsts": [
+        {
+            "name": "object1",
+            "pos": [ 0, 0, 0 ],
+            "rotation": [ 0, 0, 0 ]
+
+        },
+        {
+            "name": "object2",
+            "pos": [ 2, 0, 0 ],
+            "rotation": [ 0, 0, 0 ]
+
+        }
+    ]
+}

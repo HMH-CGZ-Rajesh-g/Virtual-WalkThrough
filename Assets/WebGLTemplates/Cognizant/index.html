@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>%UNITY_WEB_NAME%</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.727.1.min.js"></script>
+  <script src="./TemplateData/aws/amazon-cognito-auth.min.js"></script>
+  <script src="./TemplateData/aws/amazon-cognito-identity.min.js"></script>
+  <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "%UNITY_WEBGL_BUILD_URL%", { onProgress: UnityProgress });
+  </script>
+    <style>
+
+h4 {
+  text-align: right;
+  color: white;
+}
+  </style>
+
+</head>
+
+<body>
+  <div class="webgl-content">
+    <div id="unityContainer" style="width: %UNITY_WIDTH%px; height: %UNITY_HEIGHT%px"></div>
+   <div style="height:20px; width: %UNITY_WIDTH%px; background: blue;" onclick="unityInstance.SetFullscreen(1)"><h4>Full Screen</h4></div>
+
+  </div>
+  <audio id="AudioPlayer"></audio>
+  <script>
+    /**
+* Get the value of a querystring
+* @param  {String} field The field to get the value of
+* @param  {String} url   The URL to get the value from (optional)
+* @return {String}       The field value
+*/
+    var getQueryString = function (field, url) {
+      var href = url ? url : window.location.href;
+      var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i');
+      var string = reg.exec(href);
+      return string ? string[1] : null;
+    };
+  </script>
+</body>
+
+</html>

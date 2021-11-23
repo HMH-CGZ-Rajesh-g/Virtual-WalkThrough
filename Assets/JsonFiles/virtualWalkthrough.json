@@ -1,0 +1,60 @@
+{
+    "odc": {
+        "odcType": "",
+        "teamName": "",
+        "wallpaper": "",
+        "monitorDisplay": []
+
+
+    },
+    "stagingArea": {
+        "clientOrganization": "",
+        "clientName": "",
+        "agendaTitle": "",
+        "agendaDetails": "",
+        "monitorDisplay": [],
+        "wallpaper": "",
+        "wallLogo": ""
+
+    },
+    "managersCabin": {
+        "agendaTitle": "",
+        "agendaDetails": "",
+        "monitorDisplay": [],
+        "wallpaper": ""
+    },
+    "meetingRoom": [
+        {
+            "roomNumber": 0,
+            "roomName": "",
+            "agendaTitle": "",
+            "agendaDetails": "",
+            "monitorDisplay": [],
+            "wallpaper": ""
+        }
+    ],
+
+    "cafeRoom": {
+        "agendaTitle": "",
+        "agendaDetails": "",
+        "monitorDisplay": [],
+        "wallpaper": "",
+        "whiteBoardDisplay": ""
+    },
+    "trophyRoom": {
+        "agendaTitle": "",
+        "agendaDetails": "",
+        "monitorDisplay": [],
+        "wallpaper": "",
+        "trophy": [
+            {
+                "trophyName": "",
+                "trophyDetails": "",
+                "trophyImage": ""
+            }
+        ]
+    }
+
+
+
+}
